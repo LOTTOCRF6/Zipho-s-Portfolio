@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.About-section {
+  height: 100vh;
+  background: rgb(67, 70, 70);
+}
+.MySkills {
+  margin-bottom: ;
+}
+.MySkills-name {
+  color: #fff;
+  margin-bottom: 35px;
+  width: 90%;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: flex-end;
+}

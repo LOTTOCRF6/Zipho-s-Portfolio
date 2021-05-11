@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.
+.navbar-link {
+  display: flex;
+  align-items: center;
+  color: rgb(42, 165, 165);
+  
+}
+  .nav {
+  display: inline;
+  background: black;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  position: fixed;
+  top: 2vw;
+  width: 120vw;
+  height: 1vh;
+  gap: 50px;
+  font-family: sans-serif;
+  transition: all 0.3s linear;
+  border-color: black;
+}
+.navbar-links.active {
+  top: 0;
+  left: 0;
+}
+.navbar-button {
+  position: fixed;
+  top: o;
+  right: 0;
+  z-index: 100;
+  font-size: 25px;
+  background: none;
+  color: rgb(209, 63, 19);
+  border: none;
+  outline: none;
+  padding: 2px;
+}
+
