@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.section {
+  height: 100vh;
+  background: black;
+}
+.heading {
+    display: flex;
+    margin-left: 500;
+}
+.owl-carousel {
+  display: flex;
+  align-items: center;
+}
+.content-testimonial {
+  background: rgba(10, 88, 99, 0.884);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  border-radius: 20px;
+}
+img {
+  border-radius: 50%;
+}
+.title {
+    color: rgb(20, 175, 180);
+}
