@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="./styles/styling.css" />
     <link rel="stylesheet" href="./styles/landPage.css" />
     <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/experience.css"/>
+    <link rel="stylesheet" href="./styles/portfolio.css"/>
+    <link rel="stylesheet" href="./styles/testimonials.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous"
+  />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Zipho`s Portfolio</title>
     <script
       src="https://kit.fontawesome.com/6f1351e874.js"
@@ -27,7 +43,7 @@
           <a class="navbar-link" href="#about">About</a>
         </li>
         <li class="">
-          <a class="navbar-link" href="#services">Services</a>
+          <a class="navbar-link" href="#experience">Experience</a>
         </li>
         <li class="">
           <a class="navbar-link" href="#portfolio">Portfolio</a>
@@ -108,17 +124,134 @@
       </div>
     </section>
     <!-- End of About section -->
-    <!-- Services section -->
-    <section id="services" class="Services-section">
-        <div class="container">
-            <div class="services-head">
-                <h4>Services</h4>
-            </div>
-            <div class="services-items">
-                <i class="fas fa-layer-group"></i>
-            </div>    
-
-        </div>
+    <!-- Experience section -->
+    <section id="experience" class="Experience-section">
+        <div class="experience-container">
+          <div class="experience-head">
+            <h3>Education</h3>
+         </div>
+         <!-- Experience items -->
+         <div class="experiences">
+           <!-- Line class -->
+            <div class="line"></div>
+            <!-- Items -->
+            <div data-aos="fade-up-left" class="experience-item item-1">
+                 <h2>Job Occupation1</h2>
+                 <h3>Youth Recrutor</h3>
+                 <h4>1 Apr 2019 - 30 Mar 2020</h4>
+             
+               </div>
+               <div data-aos="fade-up-right" class="experience-item item-2">
+                 <h2>Institution: Uxolo High School</h2>
+                 <h3></h3>
+                 <h4>4 Apr 2020 - 8 Sep 2020</h4>
+               </div>
+               <div data-aos="fade-up-left" class="experience-item item-3">
+                 <h2>Job Occupation3</h2>
+                 <h3>Community Mobalasor</h3>
+                 <h3>30 Sep 2020 - 1 Jan 2021</h3>
+               </div>
+               <div data-aos="fade-up-right" class="experience-item item-4">
+                 <h2>Institution: Master Grade IT</h2>
+                 <h3>2 Feb 2021 - 20 Mar 2021</h3>
+               </div>
+             </div>
+            </div> 
     </section>
+    <!-- End of Experience section -->
+    <!-- Start of Portfolio section -->
+    <section id="portfolio" class="Portfolio-section">
+      <div class="portfolio-container">
+        <div class="section-head">
+          <h4>Portfolio</h4>
+        </div>
+        <div clas></div>
+
+      </div>
+    </section>
+    <!-- End of Portfolio section -->
+    <!-- Start of Testimonial section -->
+    <section id="testimonials" class="section">
+      <div class="container">
+        <div class="title">
+          <h1 class="heading">Testimonial</h1>
+        </div>
+        <!-- Owl-carousel -->
+        <div class="owl-carousel">
+          <!-- Start of My testimonial items -->
+          <div class="content-testimonial">
+            <div class="image">
+              <img src="./images/godwin-dzvapatsra.jpg" alt="" style="width: 90px" />
+            </div>
+            <h2>Godwin Dzvapatsra</h2>
+            <h3>-Head Of Curriculum Learning-</h3>
+            <q>
+              He is very focused on whatever he does.<br />
+              Disiplined and also like to intereact with people.
+            </q>
+          </div>
+          <div class="content-testimonial">
+            <div class="image1">
+              <img src="./images/thapelo-tsotetsi.jpg" alt="" style="width: 90px" />
+            </div>
+            <h2>Thapelo Tsotetsi</h2>
+            <h3>-Coding Lecture-</h3>
+            <q
+              >He is very determine and ambitious about what he does.<br />
+              He is very funny and loving he`s a good mate.
+            </q>
+          </div>
+          <div class="content-testimonial">
+            <img src="./images/Ayyoob.jpg" alt="" style="width: 90px" />
+            <h2>Ayyoob</h2>
+            <h3>-AOS Dev-</h3>
+            <q
+              >His is hardworking, responsible and work well<br />
+              underpressure.
+            </q>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Testimonial section -->
+    <!-- Start of Contact Section -->
+    <section id="contact" class="contact-section">
+      
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+              AOS.init();
+            </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+  $(".owl-carousel").owlCarousel({
+    items: 1,
+    margin: 50,
+    loop: true,
+    stagePadding: 100,
+    dots: false,
+    autoplay: true,
+    responsive: {
+      margin: 0,
+      stagePadding: 0,
+    },
+    500: {
+      margin: 10,
+      stagePadding: 10,
+    },
+  });
+});
+
+    </script>
   </body>
 </html>
