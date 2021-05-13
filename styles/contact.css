@@ -1,0 +1,145 @@
+.contact-details-heading {
+  margin-bottom: 35px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+#contact-form {
+  display: flex;
+  border: none;
+  flex-wrap: wrap;
+  position: relative;
+  margin-right: 30px;
+  margin-left: 450px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex-direction: column;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contact-input {
+  border: none;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.2);
+  margin: 0 0 60px 0;
+  width: 400px;
+  height: 40px;
+  color: #464646;
+  font-size: 15px;
+  font: inherit;
+  background: transparent;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+  margin-bottom: 80px;
+  margin-left: 40px;
+  margin: 0 0 100px 0;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* CodePen */
+.feedback-input {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid black;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+[type="submit"] {
+  font-family: sans-serif;
+  width: 70%;
+  padding-top: 8px;
+  margin-top: -45px;
+  text-decoration: none;
+  border-radius: 50px;
+  border: 2px solid #ed2d34;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  color: #ed2d34;
+  font-size: 16px;
+  padding: 10px 48px;
+  line-height: 1.8em;
+  transition: all 0.3s;
+  margin: 20;
+  font-weight: bolder;
+}
+[type="submit"]:hover {
+  background: #ed2d34;
+  color: white;
+}
+.btn {
+  border-radius: 50px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  color: black;
+  height: 45%;
+  text-decoration: none;
+  padding: 10px;
+  margin: 20px;
+  font-weight: bolder;
+  transition: all;
+  cursor: pointer;
+}
+
+.fas {
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+.contact-details-description {
+  margin-bottom: 20px;
+}
+.contact-Infor {
+  display: flex;
+  align-items: center;
+  color: #464646;
+  font-size: 17px;
+  font-weight: normal;
+  margin-bottom: 35px;
+  
+}
+.fab {
+  padding: 10px;
+}
+.fab:hover {
+  color: #ed2d34;
+  border-radius: 50%;
+}
+.contact-section {
+    background: chartreuse;
+}
+.contact-form-p {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 62px;
+}
