@@ -2,8 +2,9 @@
   margin-bottom: 35px;
   font-size: 30px;
   font-weight: normal;
+  margin-left: 436px;
+  color: #099c95;
 }
-
 * {
   padding: 0;
   box-sizing: border-box;
@@ -13,6 +14,7 @@
   display: flex;
   border: none;
   flex-wrap: wrap;
+  color: #099c95;
   position: relative;
   margin-right: 30px;
   margin-left: 450px;
@@ -20,6 +22,7 @@
   padding-left: 15px;
   flex-direction: column;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +34,7 @@
   margin: 0 0 60px 0;
   width: 400px;
   height: 40px;
-  color: #464646;
+  color: #12f1f1;
   font-size: 15px;
   font: inherit;
   background: transparent;
@@ -58,7 +61,7 @@
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border: 2px solid black;
+  border: 2px solid rgb(45, 180, 40);
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -79,11 +82,11 @@ textarea {
   margin-top: -45px;
   text-decoration: none;
   border-radius: 50px;
-  border: 2px solid #ed2d34;
+  border: 2px solid #099c95;
   justify-content: center;
   display: flex;
   cursor: pointer;
-  color: #ed2d34;
+  color: #099C95;
   font-size: 16px;
   padding: 10px 48px;
   line-height: 1.8em;
@@ -92,7 +95,7 @@ textarea {
   font-weight: bolder;
 }
 [type="submit"]:hover {
-  background: #ed2d34;
+  background: #099c95;
   color: white;
 }
 .btn {
@@ -117,29 +120,28 @@ textarea {
 .contact-details-description {
   margin-bottom: 20px;
 }
-.contact-Infor {
-  display: flex;
-  align-items: center;
-  color: #464646;
-  font-size: 17px;
-  font-weight: normal;
-  margin-bottom: 35px;
+.contact-Info {
   
+ 
+ 
 }
 .fab {
   padding: 10px;
+  margin-top: 60px;
 }
 .fab:hover {
-  color: #ed2d34;
+  color: #2bbdbd6c;
   border-radius: 50%;
 }
 .contact-section {
-    background: chartreuse;
+  background: url(../images/122-4147x2756-CRF1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .contact-form-p {
-    display: flex;
-    justify-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 62px;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 62px;
 }
