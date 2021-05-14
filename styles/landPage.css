@@ -1,11 +1,19 @@
 .landPage {
-    height: 100vh;
-    display: flex;
-    color: rgb(11, 230, 175);
-    justify-content: space-between;
-    margin-top: 40px;
-    background: black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../images/C8_Apr21_Zipho_Sithandathu-removebg.png);
-  }
+  height: 100vh;
+  display: flex;
+  color: rgb(11, 230, 175);
+  justify-content: space-between;
+  margin-top: 40px;
+  background: url(../images/630-2517x1667-CRF9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.container {
+  padding-top: 205px;
+}
+.image {
+  margin-right: 0px;
+  padding-right: 200px;
+  margin-left: 486px;
+}
