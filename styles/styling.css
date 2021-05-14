@@ -3,14 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-.
+
 .navbar-link {
   display: flex;
   align-items: center;
   color: rgb(42, 165, 165);
-  
 }
-  .nav {
+
+.navbar {
   display: inline;
   background: black;
 }
