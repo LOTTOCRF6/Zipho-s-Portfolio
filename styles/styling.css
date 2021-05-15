@@ -3,46 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.navbar-link {
-  display: flex;
-  align-items: center;
-  color: rgb(42, 165, 165);
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar {
-  display: inline;
-  background: black;
+.topnav {
+  overflow: hidden;
+  background-color: rgb(15, 11, 11);
+  position: relative;
 }
 
-.navbar-links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style-type: none;
-  position: fixed;
-  top: 2vw;
-  width: 120vw;
-  height: 1vh;
-  gap: 50px;
-  font-family: sans-serif;
-  transition: all 0.3s linear;
-  border-color: black;
-}
-.navbar-links.active {
-  top: 0;
-  left: 0;
-}
-.navbar-button {
-  position: fixed;
-  top: o;
-  right: 0;
-  z-index: 100;
-  font-size: 25px;
-  background: none;
-  color: rgb(209, 63, 19);
-  border: none;
-  outline: none;
-  padding: 2px;
+.topnav #myLinks {
+  display: none;
 }
 
+.topnav a {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(28, 221, 195);
+}
+
+.active {
+  background-color: #04aa6d;
+  color: white;
+}
