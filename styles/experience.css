@@ -6,7 +6,6 @@
 body {
   font-family: sans-serif;
 }
-
 .experience-head {
   display: flex;
   margin-right: 15px;
@@ -16,6 +15,7 @@ body {
   position: absolute;
   width: 100%;
   align-self: center;
+  margin-left: 5px;
 }
 
 .experiences {
